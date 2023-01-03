@@ -4,9 +4,9 @@ public abstract class Vehicule {
     private int kilometers;  
 
     // constructeurs  
-    public Vehicule(String brand) {  
+    public Vehicule(String brand, int kilometers) {  
         this.brand = brand;  
-        this.kilometers = 0;  
+        this.kilometers = kilometers;  
     }  
 
     // accesseurs et mutateurs  

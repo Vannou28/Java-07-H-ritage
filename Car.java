@@ -1,8 +1,9 @@
 public class Car extends Vehicule {
     private boolean flying;
 
-    public Car(String brand) {  
-        super(brand);  
+    public Car(String brand, int kilometers) {  
+        super(brand, kilometers);
+        
     }
 
     @Override
